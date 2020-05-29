@@ -1,8 +1,9 @@
 /**
  Goal: 
-- Console log Pascal pyramid that is 5 rows deep.
+- Console log Pascal pyramid that is 5 rows deep. 
 - First number has 1 column with value of 1.
 - Every number in the subsequent rows will be the sum of two numbers above it.
+- By changing rows value same logic can be scaled endlessly. Min row value 8.
  
 Pseudocode:
 - First loop trough the amount of rows.
@@ -26,7 +27,7 @@ Numbers:
       1 4 6 4 1
 */
 
-const rows = 8;
+const rows = 6;
 
 function createPyramid() {
     const pyramidArray = [];
